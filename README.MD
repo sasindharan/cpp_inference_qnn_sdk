@@ -118,13 +118,7 @@ Observations:
 
 2) QNN compiled model is successfully integrated
 
-3) Accuracy is not meaningful due to dummy inference
-
 
 # Future Improvements
 
-1) Full QNN runtime execution (QnnGraphExecute)
-
-2) Layer-wise profiling
-
-3) GPU/DSP backend support
+GPU/DSP backend support
