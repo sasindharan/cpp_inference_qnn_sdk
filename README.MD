@@ -78,7 +78,7 @@ cmake --build . --config Release
 
 cd build\Release 
 
-qnn_app.exe --accuracy
+qnn_app.exe --backend=opencv --accuracy
 
 
 # OUTPUT
