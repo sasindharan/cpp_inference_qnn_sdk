@@ -56,7 +56,7 @@ int main() {
 
         // POSTPROCESS
         auto t5 = std::chrono::high_resolution_clock::now();
-        get_predicted_class(output);
+        get_prediction(output);
         auto t6 = std::chrono::high_resolution_clock::now();
 
         profiler.add("Postprocess",

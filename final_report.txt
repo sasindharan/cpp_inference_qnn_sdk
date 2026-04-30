@@ -1,0 +1,634 @@
+[INFO] App Started
+[BACKEND] OpenCV
+[OpenCV] Model loaded successfully
+
+../../data/images\airplane_10.png
+Prediction: airplane
+Confidence: 96.9436%
+Top-3: airplane (0.969436) deer (0.027412) dog (0.00280134) 
+Ground Truth: airplane
+
+../../data/images\airplane_21.png
+Prediction: airplane
+Confidence: 99.0923%
+Top-3: airplane (0.990923) bird (0.00907692) cat (9.45265e-13) 
+Ground Truth: airplane
+
+../../data/images\airplane_27.png
+Prediction: airplane
+Confidence: 99.9999%
+Top-3: airplane (0.999999) bird (7.89531e-07) cat (2.61025e-07) 
+Ground Truth: airplane
+
+../../data/images\airplane_3.png
+Prediction: airplane
+Confidence: 88.1346%
+Top-3: airplane (0.881346) ship (0.118647) automobile (7.60061e-06) 
+Ground Truth: airplane
+
+../../data/images\airplane_44.png
+Prediction: airplane
+Confidence: 99.9999%
+Top-3: airplane (0.999999) truck (5.07245e-07) bird (7.73662e-08) 
+Ground Truth: airplane
+
+../../data/images\airplane_52.png
+Prediction: cat
+Confidence: 53.0156%
+Top-3: cat (0.530156) frog (0.399366) horse (0.0531403) 
+Ground Truth: airplane
+
+../../data/images\airplane_74.png
+Prediction: airplane
+Confidence: 97.5732%
+Top-3: airplane (0.975732) truck (0.0194378) automobile (0.00473111) 
+Ground Truth: airplane
+
+../../data/images\airplane_90.png
+Prediction: airplane
+Confidence: 100%
+Top-3: airplane (1) truck (3.57705e-13) automobile (2.02527e-15) 
+Ground Truth: airplane
+
+../../data/images\airplane_97.png
+Prediction: airplane
+Confidence: 99.9993%
+Top-3: airplane (0.999993) bird (7.41851e-06) ship (1.34984e-08) 
+Ground Truth: airplane
+
+../../data/images\airplane_98.png
+Prediction: airplane
+Confidence: 99.7188%
+Top-3: airplane (0.997188) bird (0.00278933) horse (2.22665e-05) 
+Ground Truth: airplane
+
+../../data/images\automobile_37.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) automobile (1.75623e-07) ship (1.83221e-17) 
+Ground Truth: automobile
+
+../../data/images\automobile_6.png
+Prediction: automobile
+Confidence: 91.9532%
+Top-3: automobile (0.919532) truck (0.0804676) dog (1.70255e-11) 
+Ground Truth: automobile
+
+../../data/images\automobile_66.png
+Prediction: automobile
+Confidence: 99.9999%
+Top-3: automobile (0.999999) ship (1.02712e-06) airplane (1.21311e-08) 
+Ground Truth: automobile
+
+../../data/images\automobile_81.png
+Prediction: truck
+Confidence: 98.922%
+Top-3: truck (0.989219) automobile (0.01078) ship (5.75889e-07) 
+Ground Truth: automobile
+
+../../data/images\automobile_82.png
+Prediction: automobile
+Confidence: 100%
+Top-3: automobile (1) truck (4.09738e-12) airplane (2.12899e-16) 
+Ground Truth: automobile
+
+../../data/images\automobile_9.png
+Prediction: automobile
+Confidence: 99.3233%
+Top-3: automobile (0.993233) truck (0.00676651) ship (1.91302e-07) 
+Ground Truth: automobile
+
+../../data/images\bird_25.png
+Prediction: bird
+Confidence: 95.763%
+Top-3: bird (0.95763) frog (0.0354657) dog (0.00313329) 
+Ground Truth: bird
+
+../../data/images\bird_35.png
+Prediction: truck
+Confidence: 85.7949%
+Top-3: truck (0.857949) automobile (0.086766) ship (0.0366728) 
+Ground Truth: bird
+
+../../data/images\bird_65.png
+Prediction: frog
+Confidence: 51.7139%
+Top-3: frog (0.517139) dog (0.187341) cat (0.148768) 
+Ground Truth: bird
+
+../../data/images\bird_67.png
+Prediction: bird
+Confidence: 99.9887%
+Top-3: bird (0.999887) frog (0.000106095) airplane (6.91168e-06) 
+Ground Truth: bird
+
+../../data/images\bird_70.png
+Prediction: cat
+Confidence: 43.9598%
+Top-3: cat (0.439598) bird (0.360825) airplane (0.191941) 
+Ground Truth: bird
+
+../../data/images\bird_75.png
+Prediction: bird
+Confidence: 100%
+Top-3: bird (1) frog (9.10152e-08) dog (1.17403e-10) 
+Ground Truth: bird
+
+../../data/images\bird_84.png
+Prediction: dog
+Confidence: 77.7827%
+Top-3: dog (0.777827) bird (0.199347) cat (0.0221607) 
+Ground Truth: bird
+
+../../data/images\bird_86.png
+Prediction: bird
+Confidence: 51.4003%
+Top-3: bird (0.514003) airplane (0.411069) deer (0.0499034) 
+Ground Truth: bird
+
+../../data/images\cat_0.png
+Prediction: cat
+Confidence: 99.9887%
+Top-3: cat (0.999887) dog (0.000112701) ship (7.43578e-07) 
+Ground Truth: cat
+
+../../data/images\cat_46.png
+Prediction: cat
+Confidence: 80.9815%
+Top-3: cat (0.809815) dog (0.148453) frog (0.0358566) 
+Ground Truth: cat
+
+../../data/images\cat_53.png
+Prediction: dog
+Confidence: 73.0335%
+Top-3: dog (0.730335) cat (0.248708) truck (0.0193453) 
+Ground Truth: cat
+
+../../data/images\cat_61.png
+Prediction: dog
+Confidence: 86.5341%
+Top-3: dog (0.865341) cat (0.134643) frog (1.42393e-05) 
+Ground Truth: cat
+
+../../data/images\cat_63.png
+Prediction: cat
+Confidence: 99.041%
+Top-3: cat (0.99041) ship (0.00473009) truck (0.00389461) 
+Ground Truth: cat
+
+../../data/images\cat_68.png
+Prediction: dog
+Confidence: 99.1195%
+Top-3: dog (0.991195) truck (0.00738524) cat (0.00122043) 
+Ground Truth: cat
+
+../../data/images\cat_77.png
+Prediction: cat
+Confidence: 99.9992%
+Top-3: cat (0.999992) dog (4.29911e-06) airplane (3.66065e-06) 
+Ground Truth: cat
+
+../../data/images\cat_78.png
+Prediction: dog
+Confidence: 99.4308%
+Top-3: dog (0.994308) cat (0.0053623) horse (0.000329294) 
+Ground Truth: cat
+
+../../data/images\cat_8.png
+Prediction: cat
+Confidence: 99.9998%
+Top-3: cat (0.999998) dog (2.07925e-06) frog (2.966e-10) 
+Ground Truth: cat
+
+../../data/images\cat_91.png
+Prediction: frog
+Confidence: 97.141%
+Top-3: frog (0.97141) deer (0.0153567) cat (0.00924875) 
+Ground Truth: cat
+
+../../data/images\deer_22.png
+Prediction: deer
+Confidence: 98.8787%
+Top-3: deer (0.988787) airplane (0.0112031) ship (6.21591e-06) 
+Ground Truth: deer
+
+../../data/images\deer_26.png
+Prediction: deer
+Confidence: 99.9951%
+Top-3: deer (0.999951) horse (3.45772e-05) cat (1.06394e-05) 
+Ground Truth: deer
+
+../../data/images\deer_32.png
+Prediction: deer
+Confidence: 51.9178%
+Top-3: deer (0.519178) horse (0.457797) bird (0.0230079) 
+Ground Truth: deer
+
+../../data/images\deer_36.png
+Prediction: deer
+Confidence: 99.0227%
+Top-3: deer (0.990227) horse (0.00799791) dog (0.00177536) 
+Ground Truth: deer
+
+../../data/images\deer_40.png
+Prediction: deer
+Confidence: 84.6777%
+Top-3: deer (0.846777) airplane (0.153104) bird (0.000101943) 
+Ground Truth: deer
+
+../../data/images\deer_58.png
+Prediction: cat
+Confidence: 87.6899%
+Top-3: cat (0.876899) bird (0.0908169) frog (0.0264893) 
+Ground Truth: deer
+
+../../data/images\deer_94.png
+Prediction: deer
+Confidence: 98.8967%
+Top-3: deer (0.988967) horse (0.0106809) dog (0.000351889) 
+Ground Truth: deer
+
+../../data/images\dog_12.png
+Prediction: dog
+Confidence: 99.7445%
+Top-3: dog (0.997445) cat (0.00226347) horse (0.000212021) 
+Ground Truth: dog
+
+../../data/images\dog_16.png
+Prediction: dog
+Confidence: 99.9981%
+Top-3: dog (0.999981) cat (1.8843e-05) horse (4.42544e-07) 
+Ground Truth: dog
+
+../../data/images\dog_24.png
+Prediction: deer
+Confidence: 99.8956%
+Top-3: deer (0.998956) dog (0.0010009) cat (3.1014e-05) 
+Ground Truth: dog
+
+../../data/images\dog_31.png
+Prediction: dog
+Confidence: 99.5063%
+Top-3: dog (0.995063) cat (0.00493466) horse (2.15263e-06) 
+Ground Truth: dog
+
+../../data/images\dog_33.png
+Prediction: dog
+Confidence: 99.9559%
+Top-3: dog (0.999559) deer (0.000329047) cat (0.000109885) 
+Ground Truth: dog
+
+../../data/images\dog_39.png
+Prediction: dog
+Confidence: 100%
+Top-3: dog (1) cat (8.96768e-09) horse (1.61513e-09) 
+Ground Truth: dog
+
+../../data/images\dog_42.png
+Prediction: dog
+Confidence: 97.5676%
+Top-3: dog (0.975676) cat (0.0233485) horse (0.000972992) 
+Ground Truth: dog
+
+../../data/images\dog_85.png
+Prediction: horse
+Confidence: 64.8478%
+Top-3: horse (0.648478) dog (0.333626) truck (0.0178585) 
+Ground Truth: dog
+
+../../data/images\frog_19.png
+Prediction: frog
+Confidence: 100%
+Top-3: frog (1) deer (4.13297e-12) bird (1.56668e-14) 
+Ground Truth: frog
+
+../../data/images\frog_29.png
+Prediction: frog
+Confidence: 97.9122%
+Top-3: frog (0.979122) deer (0.0207628) bird (0.000112914) 
+Ground Truth: frog
+
+../../data/images\frog_30.png
+Prediction: frog
+Confidence: 99.612%
+Top-3: frog (0.996119) cat (0.00387476) bird (2.51416e-06) 
+Ground Truth: frog
+
+../../data/images\frog_4.png
+Prediction: frog
+Confidence: 100%
+Top-3: frog (1) deer (5.97179e-11) cat (1.40094e-11) 
+Ground Truth: frog
+
+../../data/images\frog_41.png
+Prediction: frog
+Confidence: 100%
+Top-3: frog (1) deer (8.66495e-12) bird (6.261e-12) 
+Ground Truth: frog
+
+../../data/images\frog_43.png
+Prediction: frog
+Confidence: 100%
+Top-3: frog (1) bird (9.40617e-09) dog (5.8793e-09) 
+Ground Truth: frog
+
+../../data/images\frog_49.png
+Prediction: bird
+Confidence: 94.6526%
+Top-3: bird (0.946526) deer (0.0400926) frog (0.0133261) 
+Ground Truth: frog
+
+../../data/images\frog_5.png
+Prediction: frog
+Confidence: 99.9968%
+Top-3: frog (0.999968) dog (3.15857e-05) cat (2.17522e-07) 
+Ground Truth: frog
+
+../../data/images\frog_59.png
+Prediction: dog
+Confidence: 52.7951%
+Top-3: dog (0.527951) cat (0.469934) frog (0.00194984) 
+Ground Truth: frog
+
+../../data/images\frog_62.png
+Prediction: frog
+Confidence: 99.6898%
+Top-3: frog (0.996898) dog (0.00146226) deer (0.000483521) 
+Ground Truth: frog
+
+../../data/images\frog_64.png
+Prediction: frog
+Confidence: 99.6493%
+Top-3: frog (0.996493) deer (0.00176559) dog (0.00141444) 
+Ground Truth: frog
+
+../../data/images\frog_7.png
+Prediction: bird
+Confidence: 97.8977%
+Top-3: bird (0.978977) frog (0.0205393) airplane (0.000281093) 
+Ground Truth: frog
+
+../../data/images\frog_71.png
+Prediction: frog
+Confidence: 98.2665%
+Top-3: frog (0.982665) cat (0.0167649) bird (0.000394697) 
+Ground Truth: frog
+
+../../data/images\frog_93.png
+Prediction: frog
+Confidence: 100%
+Top-3: frog (1) deer (3.58634e-08) bird (3.01224e-08) 
+Ground Truth: frog
+
+../../data/images\frog_95.png
+Prediction: frog
+Confidence: 95.7397%
+Top-3: frog (0.957397) dog (0.0423663) cat (0.000236387) 
+Ground Truth: frog
+
+../../data/images\frog_96.png
+Prediction: frog
+Confidence: 99.9769%
+Top-3: frog (0.999769) bird (0.000229629) deer (1.71782e-06) 
+Ground Truth: frog
+
+../../data/images\horse_13.png
+Prediction: horse
+Confidence: 100%
+Top-3: horse (1) dog (1.59899e-09) deer (2.78113e-12) 
+Ground Truth: horse
+
+../../data/images\horse_17.png
+Prediction: dog
+Confidence: 47.456%
+Top-3: dog (0.47456) cat (0.450703) horse (0.0539982) 
+Ground Truth: horse
+
+../../data/images\horse_20.png
+Prediction: horse
+Confidence: 99.9996%
+Top-3: horse (0.999996) airplane (2.1305e-06) deer (1.05936e-06) 
+Ground Truth: horse
+
+../../data/images\horse_48.png
+Prediction: horse
+Confidence: 100%
+Top-3: horse (1) deer (2.68815e-10) dog (4.24247e-12) 
+Ground Truth: horse
+
+../../data/images\horse_56.png
+Prediction: horse
+Confidence: 99.9618%
+Top-3: horse (0.999618) bird (0.000285802) dog (7.90574e-05) 
+Ground Truth: horse
+
+../../data/images\horse_57.png
+Prediction: bird
+Confidence: 37.5347%
+Top-3: bird (0.375347) horse (0.281733) dog (0.266615) 
+Ground Truth: horse
+
+../../data/images\horse_60.png
+Prediction: horse
+Confidence: 99.998%
+Top-3: horse (0.99998) deer (2.00317e-05) dog (5.44073e-11) 
+Ground Truth: horse
+
+../../data/images\horse_69.png
+Prediction: horse
+Confidence: 82.7188%
+Top-3: horse (0.827188) truck (0.15828) airplane (0.0134771) 
+Ground Truth: horse
+
+../../data/images\horse_83.png
+Prediction: horse
+Confidence: 99.9941%
+Top-3: horse (0.999941) cat (5.72895e-05) deer (5.89358e-07) 
+Ground Truth: horse
+
+../../data/images\horse_87.png
+Prediction: airplane
+Confidence: 56.8842%
+Top-3: airplane (0.568842) horse (0.396302) truck (0.0259334) 
+Ground Truth: horse
+
+../../data/images\horse_99.png
+Prediction: horse
+Confidence: 99.9997%
+Top-3: horse (0.999997) bird (2.67741e-06) truck (2.56372e-07) 
+Ground Truth: horse
+
+../../data/images\ship_1.png
+Prediction: ship
+Confidence: 77.5405%
+Top-3: ship (0.775405) automobile (0.224595) airplane (5.56004e-08) 
+Ground Truth: ship
+
+../../data/images\ship_15.png
+Prediction: ship
+Confidence: 99.9989%
+Top-3: ship (0.999989) airplane (1.01584e-05) frog (5.50221e-07) 
+Ground Truth: ship
+
+../../data/images\ship_18.png
+Prediction: ship
+Confidence: 100%
+Top-3: ship (1) airplane (1.38809e-08) truck (4.29504e-09) 
+Ground Truth: ship
+
+../../data/images\ship_2.png
+Prediction: automobile
+Confidence: 96.1192%
+Top-3: automobile (0.961192) truck (0.0172425) ship (0.0160275) 
+Ground Truth: ship
+
+../../data/images\ship_51.png
+Prediction: ship
+Confidence: 99.9294%
+Top-3: ship (0.999294) airplane (0.000455113) deer (0.000243323) 
+Ground Truth: ship
+
+../../data/images\ship_54.png
+Prediction: ship
+Confidence: 100%
+Top-3: ship (1) airplane (7.99305e-08) bird (7.97759e-14) 
+Ground Truth: ship
+
+../../data/images\ship_55.png
+Prediction: ship
+Confidence: 99.9998%
+Top-3: ship (0.999998) airplane (1.80056e-06) truck (6.25068e-07) 
+Ground Truth: ship
+
+../../data/images\ship_72.png
+Prediction: ship
+Confidence: 100%
+Top-3: ship (1) airplane (1.42473e-08) truck (4.69891e-10) 
+Ground Truth: ship
+
+../../data/images\ship_73.png
+Prediction: ship
+Confidence: 99.9999%
+Top-3: ship (0.999999) automobile (1.40414e-06) airplane (2.90811e-09) 
+Ground Truth: ship
+
+../../data/images\ship_79.png
+Prediction: ship
+Confidence: 99.956%
+Top-3: ship (0.99956) airplane (0.000440489) automobile (1.08289e-12) 
+Ground Truth: ship
+
+../../data/images\ship_80.png
+Prediction: ship
+Confidence: 99.9646%
+Top-3: ship (0.999646) airplane (0.000352622) truck (1.42124e-06) 
+Ground Truth: ship
+
+../../data/images\ship_88.png
+Prediction: ship
+Confidence: 99.9282%
+Top-3: ship (0.999282) truck (0.000718194) automobile (4.26132e-11) 
+Ground Truth: ship
+
+../../data/images\ship_92.png
+Prediction: ship
+Confidence: 100%
+Top-3: ship (1) truck (1.94062e-11) airplane (1.00202e-11) 
+Ground Truth: ship
+
+../../data/images\truck_11.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) automobile (2.29963e-17) ship (6.80589e-22) 
+Ground Truth: truck
+
+../../data/images\truck_14.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) ship (7.36976e-21) automobile (3.43406e-21) 
+Ground Truth: truck
+
+../../data/images\truck_23.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) automobile (4.19238e-10) ship (3.8312e-25) 
+Ground Truth: truck
+
+../../data/images\truck_28.png
+Prediction: truck
+Confidence: 99.9977%
+Top-3: truck (0.999977) automobile (2.3426e-05) airplane (9.79197e-13) 
+Ground Truth: truck
+
+../../data/images\truck_34.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) airplane (1.6515e-07) ship (9.39393e-10) 
+Ground Truth: truck
+
+../../data/images\truck_38.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) ship (1.49531e-25) automobile (1.76376e-27) 
+Ground Truth: truck
+
+../../data/images\truck_45.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) automobile (6.99919e-13) airplane (1.89552e-14) 
+Ground Truth: truck
+
+../../data/images\truck_47.png
+Prediction: truck
+Confidence: 87.6744%
+Top-3: truck (0.876744) ship (0.109669) automobile (0.0127298) 
+Ground Truth: truck
+
+../../data/images\truck_50.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) airplane (1.93376e-09) frog (2.73088e-10) 
+Ground Truth: truck
+
+../../data/images\truck_76.png
+Prediction: truck
+Confidence: 95.2498%
+Top-3: truck (0.952498) automobile (0.0421446) airplane (0.00535717) 
+Ground Truth: truck
+
+../../data/images\truck_89.png
+Prediction: truck
+Confidence: 100%
+Top-3: truck (1) automobile (1.55518e-12) airplane (4.66035e-19) 
+Ground Truth: truck
+
+Accuracy: 78%
+
+===== CONFUSION MATRIX =====
+airplane -> airplane : 9
+airplane -> cat : 1
+automobile -> automobile : 4
+automobile -> truck : 2
+bird -> bird : 4
+bird -> cat : 1
+bird -> dog : 1
+bird -> frog : 1
+bird -> truck : 1
+cat -> cat : 5
+cat -> dog : 4
+cat -> frog : 1
+deer -> cat : 1
+deer -> deer : 6
+dog -> deer : 1
+dog -> dog : 6
+dog -> horse : 1
+frog -> bird : 2
+frog -> dog : 1
+frog -> frog : 13
+horse -> airplane : 1
+horse -> bird : 1
+horse -> dog : 1
+horse -> horse : 8
+ship -> automobile : 1
+ship -> ship : 12
+truck -> truck : 11

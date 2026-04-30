@@ -1,22 +1,47 @@
 #include "postprocess.h"
 #include <algorithm>
-#include <filesystem>
+#include <iostream>
+#include <map>
 
-int get_predicted_class(const std::vector<float>& output) {
-    return std::distance(output.begin(),
-                         std::max_element(output.begin(), output.end()));
+static std::vector<std::string> classes = {
+    "airplane","automobile","bird","cat","deer",
+    "dog","frog","horse","ship","truck"
+};
+
+int get_prediction(const std::vector<float>& output) {
+    return std::max_element(output.begin(), output.end()) - output.begin();
 }
 
-std::string get_ground_truth(const std::string& path,
-                            const std::vector<std::string>& classes) {
+void print_top3(const std::vector<float>& output) {
 
-    std::string filename = std::filesystem::path(path).filename().string();
+    std::vector<std::pair<float,int>> probs;
 
-    for (const auto& cls : classes) {
-        if (filename.find(cls) != std::string::npos) {
-            return cls;
-        }
+    for (int i = 0; i < output.size(); i++) {
+        probs.push_back({output[i], i});
     }
 
-    return "unknown";
+    std::sort(probs.begin(), probs.end(), std::greater<>());
+
+    std::cout << "Top-3: ";
+    for (int i = 0; i < 3; i++) {
+        std::cout << classes[probs[i].second]
+                  << " (" << probs[i].first << ") ";
+    }
+    std::cout << std::endl;
+}
+
+void print_prediction(const std::vector<float>& output) {
+
+    int pred = get_prediction(output);
+
+    std::cout << "Prediction: " << classes[pred] << std::endl;
+
+    float confidence = output[pred];
+    std::cout << "Confidence: " << confidence * 100 << "%" << std::endl;
+
+    print_top3(output);
+}
+
+std::string get_class_name(int idx) {
+    return classes[idx];
 }

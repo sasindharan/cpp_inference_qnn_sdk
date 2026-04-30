@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 
-int get_predicted_class(const std::vector<float>& output);
-
-std::string get_ground_truth(const std::string& path,
-                            const std::vector<std::string>& classes);
+int get_prediction(const std::vector<float>& output);
+void print_prediction(const std::vector<float>& output);
+std::string get_class_name(int idx);
