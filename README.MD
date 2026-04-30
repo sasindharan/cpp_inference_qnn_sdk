@@ -1,5 +1,7 @@
 # QNN Inference Application (C++)
 
+Final Accuracy: ~78% on CIFAR-10 test samples (100 images)
+
 ## OVERVIEW
 
 This project implements a production-style inference pipeline using the Qualcomm Neural Network (QNN) SDK. It performs image classification using a model converted from ONNX and executed via a compiled QNN runtime.
@@ -22,6 +24,16 @@ Image → Preprocess → QNN Engine → Inference → Postprocess → Accuracy �
 5) Runtime flag for accuracy evaluation
 
 6) Performance report generation
+
+7) Softmax-based probability output (correct confidence scores)
+
+8) Top-3 predictions for better interpretability
+
+9) Confusion matrix generation for error analysis
+
+10) CLI-based dataset selection (--dir support)
+
+11) Scalable evaluation on custom datasets
 
 ## FOLDER STRUCTURE
 ``` 
@@ -89,6 +101,32 @@ qnn_app.exe --backend=opencv --accuracy
 
 report.txt
 
+# SAMPLE OUTPUT
+
+../../data/images/cat_53.png
+
+Prediction: dog
+
+Confidence: 73.03%
+
+Top-3: dog (0.73) cat (0.24) truck (0.01)
+
+
+Ground Truth: cat
+
+
+Accuracy: 78%
+
+===== CONFUSION MATRIX =====
+
+cat -> dog : 4
+
+dog -> cat : 2
+
+bird -> frog : 1
+
+...
+
 
 # Accuracy Evaluation
 
@@ -112,13 +150,37 @@ Observations:
 - Model generalizes reasonably well on unseen data
 
 
-# Notes
+# PERFORMANCE EVALUATION
 
-1) Current inference is a placeholder for pipeline validation
+Average Preprocessing Time: ~0.40 ms
 
-2) QNN compiled model is successfully integrated
+Average Inference Time: ~0.38 ms
+
+Total Pipeline Time: ~0.78 ms per image
 
 
-# Future Improvements
+Performance remains stable across larger datasets (100 images)
 
-GPU/DSP backend support
+
+# KEY OBSERVATIONS
+
+- Strong performance on visually distinct classes (truck, ship, frog)
+
+- Moderate confusion between similar classes (cat vs dog)
+
+- Bird class shows variability due to background noise
+
+- Model generalizes well but limited by architecture complexity
+
+# EXPERIMENTAL SETUP
+
+Dataset: CIFAR-10  
+
+Classes: 10  
+
+Images evaluated: 100  
+
+Platform: Windows + MSVC + CMake  
+
+
+Model: Custom CNN exported from PyTorch → ONNX → QNN
