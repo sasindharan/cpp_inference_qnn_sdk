@@ -1,0 +1,21 @@
+[INFO] App Started
+[BACKEND] OpenCV
+[OpenCV] Model loaded successfully
+
+../../data/images/airplane1.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/cat1.png
+Prediction: dog
+Ground Truth: cat
+
+../../data/images/dog1.png
+Prediction: dog
+Ground Truth: dog
+
+../../data/images/ship1.png
+Prediction: ship
+Ground Truth: ship
+
+Accuracy: 75%

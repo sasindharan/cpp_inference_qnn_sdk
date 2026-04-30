@@ -1,0 +1,30 @@
+# Build
+build/
+*.exe
+*.dll
+*.obj
+*.lib
+
+# QNN temp files
+models/compiled/tmp_*/
+
+# VSCode
+.vscode/
+
+# Python env
+venv/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# vcpkg (IMPORTANT)
+vcpkg/
+
+# image files
+data/
+*.tar.gz
+*.pth

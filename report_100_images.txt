@@ -1,0 +1,405 @@
+[INFO] App Started
+[BACKEND] OpenCV
+[OpenCV] Model loaded successfully
+
+../../data/images/airplane_10.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/airplane_21.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/airplane_27.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/airplane_3.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/airplane_44.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/airplane_52.png
+Prediction: cat
+Ground Truth: airplane
+
+../../data/images/airplane_74.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/airplane_90.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/airplane_97.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/airplane_98.png
+Prediction: airplane
+Ground Truth: airplane
+
+../../data/images/automobile_37.png
+Prediction: truck
+Ground Truth: automobile
+
+../../data/images/automobile_6.png
+Prediction: automobile
+Ground Truth: automobile
+
+../../data/images/automobile_66.png
+Prediction: automobile
+Ground Truth: automobile
+
+../../data/images/automobile_81.png
+Prediction: truck
+Ground Truth: automobile
+
+../../data/images/automobile_82.png
+Prediction: automobile
+Ground Truth: automobile
+
+../../data/images/automobile_9.png
+Prediction: automobile
+Ground Truth: automobile
+
+../../data/images/bird_25.png
+Prediction: bird
+Ground Truth: bird
+
+../../data/images/bird_35.png
+Prediction: truck
+Ground Truth: bird
+
+../../data/images/bird_65.png
+Prediction: frog
+Ground Truth: bird
+
+../../data/images/bird_67.png
+Prediction: bird
+Ground Truth: bird
+
+../../data/images/bird_70.png
+Prediction: cat
+Ground Truth: bird
+
+../../data/images/bird_75.png
+Prediction: bird
+Ground Truth: bird
+
+../../data/images/bird_84.png
+Prediction: dog
+Ground Truth: bird
+
+../../data/images/bird_86.png
+Prediction: bird
+Ground Truth: bird
+
+../../data/images/cat_0.png
+Prediction: cat
+Ground Truth: cat
+
+../../data/images/cat_46.png
+Prediction: cat
+Ground Truth: cat
+
+../../data/images/cat_53.png
+Prediction: dog
+Ground Truth: cat
+
+../../data/images/cat_61.png
+Prediction: dog
+Ground Truth: cat
+
+../../data/images/cat_63.png
+Prediction: cat
+Ground Truth: cat
+
+../../data/images/cat_68.png
+Prediction: dog
+Ground Truth: cat
+
+../../data/images/cat_77.png
+Prediction: cat
+Ground Truth: cat
+
+../../data/images/cat_78.png
+Prediction: dog
+Ground Truth: cat
+
+../../data/images/cat_8.png
+Prediction: cat
+Ground Truth: cat
+
+../../data/images/cat_91.png
+Prediction: frog
+Ground Truth: cat
+
+../../data/images/deer_22.png
+Prediction: deer
+Ground Truth: deer
+
+../../data/images/deer_26.png
+Prediction: deer
+Ground Truth: deer
+
+../../data/images/deer_32.png
+Prediction: deer
+Ground Truth: deer
+
+../../data/images/deer_36.png
+Prediction: deer
+Ground Truth: deer
+
+../../data/images/deer_40.png
+Prediction: deer
+Ground Truth: deer
+
+../../data/images/deer_58.png
+Prediction: cat
+Ground Truth: deer
+
+../../data/images/deer_94.png
+Prediction: deer
+Ground Truth: deer
+
+../../data/images/dog_12.png
+Prediction: dog
+Ground Truth: dog
+
+../../data/images/dog_16.png
+Prediction: dog
+Ground Truth: dog
+
+../../data/images/dog_24.png
+Prediction: deer
+Ground Truth: dog
+
+../../data/images/dog_31.png
+Prediction: dog
+Ground Truth: dog
+
+../../data/images/dog_33.png
+Prediction: dog
+Ground Truth: dog
+
+../../data/images/dog_39.png
+Prediction: dog
+Ground Truth: dog
+
+../../data/images/dog_42.png
+Prediction: dog
+Ground Truth: dog
+
+../../data/images/dog_85.png
+Prediction: horse
+Ground Truth: dog
+
+../../data/images/frog_19.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_29.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_30.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_4.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_41.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_43.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_49.png
+Prediction: bird
+Ground Truth: frog
+
+../../data/images/frog_5.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_59.png
+Prediction: dog
+Ground Truth: frog
+
+../../data/images/frog_62.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_64.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_7.png
+Prediction: bird
+Ground Truth: frog
+
+../../data/images/frog_71.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_93.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_95.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/frog_96.png
+Prediction: frog
+Ground Truth: frog
+
+../../data/images/horse_13.png
+Prediction: horse
+Ground Truth: horse
+
+../../data/images/horse_17.png
+Prediction: dog
+Ground Truth: horse
+
+../../data/images/horse_20.png
+Prediction: horse
+Ground Truth: horse
+
+../../data/images/horse_48.png
+Prediction: horse
+Ground Truth: horse
+
+../../data/images/horse_56.png
+Prediction: horse
+Ground Truth: horse
+
+../../data/images/horse_57.png
+Prediction: bird
+Ground Truth: horse
+
+../../data/images/horse_60.png
+Prediction: horse
+Ground Truth: horse
+
+../../data/images/horse_69.png
+Prediction: horse
+Ground Truth: horse
+
+../../data/images/horse_83.png
+Prediction: horse
+Ground Truth: horse
+
+../../data/images/horse_87.png
+Prediction: airplane
+Ground Truth: horse
+
+../../data/images/horse_99.png
+Prediction: horse
+Ground Truth: horse
+
+../../data/images/ship_1.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_15.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_18.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_2.png
+Prediction: automobile
+Ground Truth: ship
+
+../../data/images/ship_51.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_54.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_55.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_72.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_73.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_79.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_80.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_88.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/ship_92.png
+Prediction: ship
+Ground Truth: ship
+
+../../data/images/truck_11.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_14.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_23.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_28.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_34.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_38.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_45.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_47.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_50.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_76.png
+Prediction: truck
+Ground Truth: truck
+
+../../data/images/truck_89.png
+Prediction: truck
+Ground Truth: truck
+
+Accuracy: 78%
